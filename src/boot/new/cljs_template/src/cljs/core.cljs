@@ -1,6 +1,6 @@
 (ns {{name}}.core
-    (:require [reagent.core :as reagent]
-              [re-frame.core :as re-frame]
+  (:require [reagent.core :as reagent]
+            [re-frame.core :as re-frame]
 
             [{{name}}.containers.main :refer [main]]
             [{{name}}.events.core]

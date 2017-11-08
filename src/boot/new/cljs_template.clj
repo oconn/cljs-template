@@ -38,17 +38,14 @@
 
      ;; Datebase objects
      ["src/cljs/{{sanitized}}/db/core.cljs"   (render "src/cljs/db/core.cljs" data)]
-     ["src/cljs/{{sanitized}}/db/router.cljs" (render "src/cljs/db/router.cljs" data)]
 
      ;; Events
      ["src/cljs/{{sanitized}}/events/core.cljs"        (render "src/cljs/events/core.cljs" data)]
-     ["src/cljs/{{sanitized}}/events/router.cljs"      (render "src/cljs/events/router.cljs" data)]
      ["src/cljs/{{sanitized}}/events/bootstrap.cljs"   (render "src/cljs/events/bootstrap.cljs" data)]
      ["src/cljs/{{sanitized}}/events/development.cljs" (render "src/cljs/events/development.cljs" data)]
 
      ;; Subscriptions
      ["src/cljs/{{sanitized}}/subs/core.cljs"      (render "src/cljs/subs/core.cljs" data)]
-     ["src/cljs/{{sanitized}}/subs/router.cljs"    (render "src/cljs/subs/router.cljs" data)]
      ["src/cljs/{{sanitized}}/subs/bootstrap.cljs" (render "src/cljs/subs/bootstrap.cljs" data)]
 
      ;; Interceptors

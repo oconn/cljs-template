@@ -2,11 +2,9 @@
  :jvm-opts ^:replace ["-Xmx1g" "-server"]
  :source-paths #{"src/cljs" "src/clj" "scss"}
  :resource-paths #{"resources"}
- :dependencies '[[bidi                        "2.1.2"]
-                 [com.cemerick/url            "0.1.1"]
-                 [kibu/pushy                  "0.3.8"]
-                 [oconn/re-frame-notifier     "0.1.0-SNAPSHOT"]
+ :dependencies '[[oconn/re-frame-notifier     "0.1.0-SNAPSHOT"]
                  [oconn/re-frame-request      "0.1.0-SNAPSHOT"]
+                 [oconn/re-frame-routing      "0.1.0-SNAPSHOT"]
                  [org.clojure/clojure         "1.9.0-RC1"]
                  [org.clojure/clojurescript   "1.9.946"]
                  [reagent                     "0.8.0-alpha2"]
