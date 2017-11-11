@@ -3,13 +3,14 @@
  :source-paths #{"src/cljs" "src/clj" "scss"}
  :resource-paths #{"resources"}
  :dependencies
- '[[oconn/re-frame-notifier     "0.1.0-SNAPSHOT"]
-   [oconn/re-frame-request      "0.1.0-SNAPSHOT"]
-   [oconn/re-frame-routing      "0.1.0-SNAPSHOT"]
-   [org.clojure/clojure         "1.9.0-RC1"]
-   [org.clojure/clojurescript   "1.9.946"]
-   [reagent                     "0.8.0-alpha2"]
-   [re-frame                    "0.10.2"]
+ '[[oconn/re-frame-form        "0.1.0-SNAPSHOT"]
+   [oconn/re-frame-notifier    "0.1.0-SNAPSHOT"]
+   [oconn/re-frame-request     "0.1.0-SNAPSHOT"]
+   [oconn/re-frame-routing     "0.1.0-SNAPSHOT"]
+   [org.clojure/clojure        "1.9.0-RC1"]
+   [org.clojure/clojurescript  "1.9.946"]
+   [reagent                    "0.8.0-alpha2"]
+   [re-frame                   "0.10.2"]
 
    [adzerk/boot-cljs                "2.1.4"          :scope "test"]
    [adzerk/boot-cljs-repl           "0.3.3"          :scope "test"]
